@@ -43,12 +43,12 @@
   
   .game {
     &-banner {
-      height: 442px;
+      height: 742px;
       overflow: hidden;
   
       &-img {
         width: 100%;
-        filter: blur(5px);
+        filter: blur(3px);
       }
     }
   
@@ -60,8 +60,8 @@
   
     &-header {
       &-title {
-        font-size: 70px;
-        color: #fff;
+        font-size: 80px;
+        color: rgb(255, 255, 255);
         font-weight: 700;
         line-height: 70px;
         white-space: nowrap;
@@ -69,12 +69,12 @@
   
       &-release-date {
         color: #fff;
-        font-weight: 700;
+        font-weight: 800;
       }
   
       &-genres {
         color: #fff;
-        font-weight: 700;
+        font-weight: 800;
       }
     }
   }
